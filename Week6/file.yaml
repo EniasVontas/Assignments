@@ -1,0 +1,16 @@
+file_type: csv
+dataset_name: dataset
+file_name: custom_1988_2020
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - yr
+    - exp_imp
+    - hs_code
+    - customs
+    - country
+    - q1
+    - q2
+    - value
